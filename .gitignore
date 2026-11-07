@@ -1,0 +1,15 @@
+# Virtual environement
+venv/
+ENV/
+
+# Secrets and environment configs
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Vectorstore outputs and local data
+vectorstore/*
+!vectorstore/.gitkeep
